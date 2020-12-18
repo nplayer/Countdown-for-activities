@@ -1,0 +1,68 @@
+.header_container{
+    max-width: 420px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #148989;
+    border-radius: 10px;
+    background-color: rgb(48, 48, 48);
+    box-shadow: 0 0 20px 0 rgba(69, 134, 160, 0.664);
+}
+.app_title{
+    background-color: #18c9cf57;
+    padding: 6px;
+    box-shadow:  0 1px #148989;
+    border-radius: 8px 8px 0 0;
+}
+.app_title p{
+    font-size: 30px;
+    color:  rgb(240, 156, 1);
+    font-weight: bold;
+}
+.clock{
+    font-size: 16px;
+    float: right;
+}
+.p_container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    min-height: 400px;
+}
+.timer{
+    font-size: 80px;
+    color: rgb(240, 156, 1);
+    font-weight: bold;
+}
+.timer_name{
+    font-size: 40px;
+    color: rgb(240, 156, 1);
+    font-weight: bold;
+}
+.btns_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #18c9cf57;
+    box-shadow:  0 -1px #148989;
+    padding: 6px;
+    border-radius: 0 0 8px 8px;
+}
+.btnStart, .btnReset{
+    background-color: rgb(3, 64, 88);
+    color: white;
+    font-size: 30px;
+    border-radius: 8px;
+    border-color: rgb(255, 137, 2);
+    margin: 4px 16px;
+    padding: 1px;
+    box-shadow:0 0 5px rgb(0, 0, 0);
+    min-width: 120px;
+}
+.btnStart:focus, .btnReset:focus{
+    outline: none;
+    box-shadow: none;
+}
